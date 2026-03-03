@@ -1,6 +1,0 @@
-To run this
-
-copy this folder to your computer to the place where you want to run your server
-If you're running Python's http.server or Node's http-server, then on cmd navigate to this folder and run your server
-On the browser or phone go to localhost:8000/main or ipaddress:8000/main  because index.html is in folder main
-Please don't run your server from folder main, but on this root folder where main and textures is
