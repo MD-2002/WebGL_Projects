@@ -1,0 +1,12 @@
+body{
+    background-color: brown;
+}
+canvas {
+    border: 2px white;
+    background-color: black;
+    background-image: url("OIP.jpeg");
+}
+button{
+    border-style: groove;
+    background-color:aliceblue;
+}

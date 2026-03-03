@@ -1,0 +1,20 @@
+Game Overview
+
+This is a WebGL-based game where you control a blue square (the player) that moves horizontally.
+The aim of the game is to avoid falling objects (white squares) that increase in speed over time.
+The game ends when a falling object hits or collide with the player object.
+The score is based on the speed of the falling objects.
+
+Controls
+
+Arrow Right: Move the player right. 
+Arrow Left: Move the player left.
+Pause: Pause or unpause the game.
+Restart: restart or reset the game.
+
+Run notes:
+
+The game does not need to be installed, just open the folder and run the index.html file with a browser.
+Recommended browser: Mozilla Firefox.
+The game can either be run using live server or not.
+If the background sound does not play just click on the restart button in your top left-hand side of the screen.

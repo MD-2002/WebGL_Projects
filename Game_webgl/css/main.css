@@ -1,0 +1,25 @@
+body{
+    background-position: center;
+    background-image:url("usa.jpg");
+    background-repeat: no-repeat;
+}
+canvas {
+    border: 2px white;
+    background-color: black;
+    padding: 0;
+    margin: auto;
+    display:block;
+    position: absolute;
+    top: 2cm;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button{
+    border-style: groove;
+    background-color:aliceblue;
+    }
+#pointsLabel{
+    background-color:goldenrod;
+}
+

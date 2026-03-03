@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <audio id="backgroundMusic" loop autoplay>
+    <source src="sound/Back1.mp3" type="audio/mp3">
+  </audio>
+  <audio id="gameOverSound">
+    <source src="sound/gameOver1.mp3" type="audio/mp3">
+  </audio>
+<audio id="clickSound">
+  <source src="sound/slide (1).mp3" type="audio/mp3">
+</audio>
+  <title>WebGL Game By Almeida MDFD 230328547</title>
+</head>
+<body>
+  <center><h1 style="border: dashed;">AVOID FALLING OBJECTS</h1></center>
+  <b><h3><label id="pointsLabel">Points: 0</label></h3></b>
+  <p><button onclick="pauseGame()">Pause</button><button onclick="restartGame()">Restart</button></p>
+  <canvas id="gameCanvas" width="800" height="500"></canvas>
+  <script src="js/game.js"></script>
+</body>
+</html>
